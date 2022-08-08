@@ -4,9 +4,9 @@ import db from '../../../utils/db';
 
 const handler = async (req, res) => {
   const session = await getSession({ req });
-  if (!session) {
-    return res.status(401).send('signin required');
-  }
+  // if (!session) {
+  //   return res.status(401).send('signin required');
+  // }
   const { user } = session;
   await db.connect();
   const newOrder = new Order({
