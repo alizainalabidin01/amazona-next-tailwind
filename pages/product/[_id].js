@@ -1,6 +1,6 @@
 // import { useRouter } from 'next/router';
 import React, { useContext } from 'react';
-import Layout from '../../components/layout';
+import Layout from '../../components/Layout';
 import Link from 'next/link';
 import { Store } from '../../utils/Store';
 import db from '../../utils/db';
