@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import Layout from '../components/layout.js';
-import ProductItem from '../components/productItem';
+import Layout from '../components/Layout';
+import ProductItem from '../components/ProductItem';
 import Product from '../models/Product';
 import db from '../utils/db';
 import { Store } from '../utils/Store';
